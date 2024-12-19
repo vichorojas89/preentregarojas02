@@ -1,0 +1,24 @@
+.itemlistcontainer {
+    padding: 20px;
+    background: linear-gradient(to right, #f3e5ab, #fbeec1);
+    border-radius: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.itemlist {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se acomoden si no caben */
+    gap: 20px; /* Espaciado más limpio entre los elementos */
+    justify-content: center; /* Alinea los elementos en el centro */
+    align-items: center;
+}
+
+.item {
+    padding: 15px 20px; /* Más espacio interno para mejor proporción */
+    margin: 10px;
+    background-color: #ffc107; /* Amarillo más vivo */
+    color: #333; /* Contraste adecuado para el texto */
+    border-radius: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra sutil para destacar los elementos */
+    transition: transform 0.3s, box-shadow 0.3s; /* Efecto suave al interactuar */
+}
